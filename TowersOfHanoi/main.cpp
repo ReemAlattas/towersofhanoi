@@ -14,7 +14,12 @@ void moveTower(int, int, int, int);
 
 int main(int argc, const char * argv[]) {
     
-    moveTower(3, 1, 3, 2);
+    int disks;
+    
+    cout << "Enter number of disks: ";
+    cin >> disks;
+    
+    moveTower(disks, 1, 3, 2);
     
     return 0;
 }
